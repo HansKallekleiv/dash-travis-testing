@@ -21,7 +21,7 @@ setup(
     author='HK',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'dash==0.41'
+        'dash==2.15.0'
     ],
     tests_require=tests_require,
     extras_require={'tests': tests_require},
